@@ -32,6 +32,11 @@
   </servlet-mapping>
 
 
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error_page</location>
+  </error-page>
+
   <filter>
     <filter-name>springSecurityFilterChain</filter-name>
     <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>

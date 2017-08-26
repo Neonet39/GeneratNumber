@@ -16,11 +16,11 @@
     <div id="header">
 
         <div class="logo">
-            <a href="#"></a>
+            <a href="/number/generating_numbers"></a>
         </div>
 
         <div class="menu">
-            <a class="menu_content_1" href="#"></a>
+            <a class="menu_content_1" href="/number/generating_numbers"></a>
         </div>
 
     </div>
