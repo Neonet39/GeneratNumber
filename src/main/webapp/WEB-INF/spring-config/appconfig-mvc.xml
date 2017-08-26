@@ -9,9 +9,11 @@
 
     <annotation-driven />
 
-    <beans:bean
-            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <beans:property name="prefix" value="/Display/page/" />
+    <resources mapping="/resourses/**" location="/resourses/" />
+
+
+    <beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <beans:property name="prefix" value="/page/" />
         <beans:property name="suffix" value=".jsp" />
     </beans:bean>
 

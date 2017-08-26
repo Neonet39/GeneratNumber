@@ -1,0 +1,147 @@
+body{
+  background: url('/resourses/img/wrap_bg.png') repeat;
+    margin: 0;
+    padding: 0;
+}
+.content{
+  margin: 0;
+  padding: 0;
+
+}
+#header{
+	margin: 0;
+    padding: 0;
+	height:89px; 
+	background: url('/resourses/img/head_bg.png') repeat;
+
+	 
+}
+#header .logo{
+    float: left;
+    width: 146px;
+    height: 90px;
+    padding-left: 120px;
+}
+
+#header .logo a{
+  
+  position: relative;
+  display: block;
+  width: 156px;
+  height: 94px;
+  background: url('/resourses/img/logo.png') no-repeat;
+
+}
+
+
+h1{
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+
+}
+.central_content{
+	margin: auto;
+}
+#conteption{
+	padding: 100px 0 0 0;
+	text-align: center;
+    font: 30px/34px 'Open Sans';
+  
+}
+.number_general{
+	font: 85px/34px 'Open Sans';
+	text-align: center;
+}
+
+#btn{
+  margin: auto;
+  width: 279px;
+  height: 78px;   
+  position: relative;
+  
+}
+#btn a{
+  background: url('/resourses/img/but_sm_bg.png') no-repeat;
+
+  position: absolute;
+  text-align: center;
+  width: 279px;
+  height: 78px;  
+}
+ 
+
+
+
+#start_number, #end_number {
+  
+  background: url('/resourses/img/input_bg.png');
+  border: solid 1px #b6b6b6;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #fff, inset 0 1px 6px -2px rgba(0, 0, 0, .5);
+  color: #000;
+  font: 14px/16px 'Open Sans';
+  vertical-align: middle;
+
+  -webkit-rtl-ordering: logical;
+  user-select: text;
+  cursor: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+
+  width: 82px;
+  height: 24px;
+
+} 
+
+
+#header .menu{
+  padding-left: 350px;
+  height:89px;
+  width: auto;
+  padding-top: 7px;
+  
+
+}
+#header .menu{
+  height:89px;
+  display: block;
+  position: relative;
+
+}
+
+#header .menu .menu_content_1{
+
+  position: absolute;
+  background: url('/resourses/img/test2.PNG') no-repeat;
+  width: 1000px;
+  height: 76px;
+
+
+}
+
+ 
+
+
+
+ 
+
+#beetwin{
+  padding-top: 20px;
+  text-align: center;
+  
+}
+
+#footer{
+
+}

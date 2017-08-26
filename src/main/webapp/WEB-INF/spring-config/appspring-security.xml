@@ -9,7 +9,7 @@
 	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
     <http auto-config="true">
-        <intercept-url pattern="/administrator_area" access="ROLE_ADMIN" />
+        <intercept-url pattern="/personal/**" access="ROLE_ADMIN" />
     </http>
 
     <authentication-manager>
