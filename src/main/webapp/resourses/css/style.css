@@ -65,17 +65,29 @@ h1{
   position: relative;
   
 }
-#btn a{
+#btn button {
+  
   background: url('/resourses/img/but_sm_bg.png') no-repeat;
+
+  
 
   position: absolute;
   text-align: center;
+  display: block;
   width: 279px;
   height: 78px;  
+  border: none;
 }
  
+#btn button:active {
 
+  background: url('/resourses/img/but_sm_bg_click.png') no-repeat;
+ 
+}
 
+#btn button:focus {
+    outline: 0;
+}
 
 #start_number, #end_number {
   
